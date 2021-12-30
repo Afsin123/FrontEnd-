@@ -1,0 +1,48 @@
+/* .cards1{
+   display: flex ;
+}
+.Card.Img{
+   width:100px;
+   height:100px;
+}
+.col-card{
+   width: 180px;
+   height: 50 px;
+   border: 1px;
+   margin-top: 25px;
+   margin-right: 20px;
+   background-color: rgb(223, 217, 217);
+} */
+
+.cards {
+   margin: 0 auto;
+   max-width: 1000px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   gap: 20px;
+   padding-top: 30px;
+   border-radius: 0px;
+}
+
+/* .cards * {
+   box-sizing: none;
+} */
+
+.card__image {
+   width: 100%;
+   height: 180px;
+   object-fit:fill;
+   display: block;
+  background-color: rgb(231, 224, 224);
+}
+
+
+
+
+
+
+
+
+
+
+
