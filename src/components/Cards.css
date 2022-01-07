@@ -35,6 +35,11 @@
    display: block;
   background-color: rgb(231, 224, 224);
 }
+@media (max-width:425px){
+   .cards{
+      padding-left: 10%;
+   }
+}
 
 
 

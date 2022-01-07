@@ -17,3 +17,16 @@ p {
    margin-bottom: 1rem;
   
 }
+
+
+@media (max-width: 768px){
+   .rows{
+      height:750px;
+   }
+}
+   
+@media (max-width: 425px){
+      .rows{
+         height:975px;
+      }
+      }
